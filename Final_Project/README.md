@@ -56,49 +56,70 @@ The notebook includes the following analyses:
 
 1. Age Distribution  
    - Age group categorization  
-   - Identification of dominant age segment  
+   - Identification of the dominant age segment  
 
 2. Gender Distribution  
-   - Balance between male and female users  
+   - Evaluation of gender balance within the dataset  
 
 3. Department Distribution  
-   - Analysis of professional diversity  
-   - Identification of dominant departments  
+   - Assessment of professional diversity  
+   - Identification of the most represented departments  
 
 4. Role Distribution  
-   - Distribution of admin, moderator, and user roles  
+   - Analysis of admin, moderator, and user roles  
 
 5. Geographic Distribution  
-   - Top states by number of users  
+   - Identification of top states by number of users  
+
+6. Top Universities  
+   - Analysis of the most frequently represented universities  
+   - Evaluation of academic background diversity  
+
+---
+
+## Visual Results
+
+### Age Group Distribution
+![Age Group Distribution](images/age_group_distribution.png)
+
+### Department Distribution
+![Department Distribution](images/department_distribution.png)
+
+### Top Universities
+![Top Universities](images/top_universities.png)
+
+### Role vs Department Heatmap
+![Role vs Department Heatmap](images/role_vs_department_heatmap.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ---
 
 ## Relationship Analysis
 
-The project also explores relationships between variables:
+The project explores relationships between variables:
 
-- Role vs Department cross-tabulation  
-  Examines whether certain departments tend to have more administrative roles.
+- Role vs Department Analysis  
+  Cross-tabulation and heatmap visualization were used to determine whether certain departments tend to have more administrative roles.
 
 - Correlation Heatmap  
-  Analyzes relationships between numerical variables such as:
-  - Age
-  - Height
-  - Weight
+  Analysis of relationships between numerical variables including:
+  - Age  
+  - Height  
+  - Weight  
 
-The correlation analysis showed weak linear relationships between the numerical variables.
+The correlation results indicate weak linear relationships among the numerical variables.
 
 ---
 
 ## Key Insights
 
 - The majority of users fall within the 26–35 age group.
-- The dataset shows professional diversity across departments.
-- No single department overwhelmingly dominates the structure.
-- Role distribution appears relatively balanced.
-- There is no strong linear correlation between age, height, and weight.
-
----
+- The dataset reflects diversity across departments without strong dominance by a single field.
+- Role distribution appears relatively balanced across departments.
+- Academic backgrounds are varied, with no overwhelming concentration in one university.
+- Correlation analysis shows no strong linear relationships between age, height, and weight.
 
 ## How to Run the Project
 
